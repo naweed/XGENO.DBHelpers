@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <Authors>Naweed Akram</Authors>
+    <Company>XGENO Software</Company>
+    <Copyright></Copyright>
+    <Description>XGENO.DBHelpers is a set of extension methods which allows you to perform common DB query/command operations and map the result(s) back to .NET classes (POCO). It can be used with SQL Server 2005 and above.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/naweed/XGENO.DBHelpers</RepositoryUrl>
+    <PackageTags>.NET Core, Mapper, Mapping, SQL Server, Database, DBMapper, DB Result Mapping, SQL Extensions</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>
